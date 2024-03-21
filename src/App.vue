@@ -5,7 +5,7 @@ import Toolbar from "@/components/Toolbar.vue"
 import PlayerList from "@/components/PlayerList.vue"
 
 const worldStateStore = useWorldStateStore()
-const webSocket = new WebSocket("ws://localhost:3001")
+const webSocket = new WebSocket("ws://localhost:3000/?clientType=gui")
 const worldState = ref({})
 
 webSocket.addEventListener("error", console.error)
