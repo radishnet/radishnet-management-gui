@@ -1,7 +1,7 @@
 {
-    "name": "open-mux-management-gui",
+    "name": "radishnet-management-gui",
     "version": "1.0.0",
-    "description": "The management GUI is used to view and edit players, objects and world info.",
+    "description": "The Management GUI is an optional tool in RadishNet that can be used to visually display and manage connected clients in your web browser.",
     "main": "index.js",
     "type": "module",
     "scripts": {
